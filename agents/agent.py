@@ -21,6 +21,8 @@ class Agent:
                                                        j=0 j=1 j=2
            And the robot will always start at point (0,0).
            The state[0]: messages will be a list of strings which might include: "CONTINUE", "BREEZE", "STENCH", "GLITTER", "KILLED-WUMPUS","GOLD" .
+           ["CONTINUE","STENCH"]
+           ["FAIL"]
     @return This function should return a string "move_up", "move_down" , "move_left", "move_right" , "shoot_up", "shoot_down", "shoot_right", "shoot_left" based on the current state.
     '''
     def move(self,state):
