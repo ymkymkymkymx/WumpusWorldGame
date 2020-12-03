@@ -58,6 +58,7 @@ class AgentGame:
         try:
         
             nextMove = stopper(self.agent,self.ob)
+            
             if nextMove==None:
                 raise Exception
         except Exception as e:

@@ -525,7 +525,7 @@ def battle_play(screen, board):
         bg_rgb=BLUE,
         text_rgb=WHITE,
         text="Quit",
-        action=GameState.QUIT,
+        action=GameState.QUIT
     )
     buttons = RenderUpdates(return_btn, quit_btn)
     return game_loop(screen, buttons)
